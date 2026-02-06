@@ -49,8 +49,8 @@ nav a {
 }
 
 .top-content h1 {
-  font-size: 120px;
-  margin: 20px 0;
+  font-size: clamp(40px, 10vw, 120px);
+  margin: 20px;
   line-height: 0.9;
   font-weight: bold;
 }
